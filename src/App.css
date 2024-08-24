@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li{
+  @apply px-5
+}
+body{
+  background-color: #000;
+  font-family: "font-poppins" !important;
+}
+.bg-black{
+  background-color: black;
+}
+.bg-primary{
+  background-color: rgb(85 81 227);
+}
+.bg-secondary{
+  background-color: #2b2d77;
+}
+.header_nav{
+  background-color: #000;
+  padding: 10px 20px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.moblie-nav{
+  @apply fixed top-10 left-0 bg-gray-600 w-full h-1/4;
+}
+.moblie-nav ul li{
+  @apply w-full text-center border-b-2 h-full;
+}
+.service-hover{
+  @apply absolute left-0 right-0 bottom-0 top-0 bg-secondary opacity-0 hover:opacity-100 duration-500
+}
